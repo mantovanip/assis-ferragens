@@ -1,1 +1,31 @@
-@media(max-width:950px){.search{display:none}.nav{justify-content:space-between}.nav-actions{display:none}.menu-btn{display:block}.category-nav .container{gap:20px}.hero-grid{grid-template-columns:1fr}.hero-copy{border-radius:10px 10px 0 0}.hero-visual{border-radius:0 0 10px 10px;min-height:300px}.trust .container,.category-grid{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.showcase-grid{grid-template-columns:1fr 1fr}.about-grid,.location{grid-template-columns:1fr}}@media(max-width:580px){.container{width:calc(100% - 28px)}.topbar .container{justify-content:center;text-align:center}.section{padding:55px 0}.hero-copy{padding:38px 26px}.hero-visual{min-height:250px}.trust .container,.category-grid,.showcase-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid #e5e7eb}.category-nav .container{min-height:42px}.banner{padding:28px;display:block}.banner .btn{margin-top:18px;width:100%}.actions .btn{width:100%}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:950px){
+.search{display:none}
+.nav{justify-content:space-between}
+.nav-actions{display:none}
+.menu-btn{display:block}
+.category-nav .container{gap:20px}
+.category-nav{display:none}
+.category-nav.mobile-open{display:block}
+.category-nav.mobile-open .container{display:flex;flex-direction:column;align-items:flex-start;padding:14px 0;gap:14px}
+.hero-grid{grid-template-columns:1fr}
+.hero-copy{border-radius:10px 10px 0 0}
+.hero-visual{border-radius:0 0 10px 10px;min-height:300px}
+.trust .container,.category-grid{grid-template-columns:repeat(2,1fr)}
+.trust-item:nth-child(2){border-right:0}
+.showcase-grid{grid-template-columns:1fr 1fr}
+.about-grid,.location{grid-template-columns:1fr}
+}
+@media(max-width:580px){
+.container{width:calc(100% - 28px)}
+.topbar .container{justify-content:center;text-align:center}
+.section{padding:55px 0}
+.hero-copy{padding:38px 26px}
+.hero-visual{min-height:250px}
+.trust .container,.category-grid,.showcase-grid{grid-template-columns:1fr}
+.trust-item{border-right:0;border-bottom:1px solid #e5e7eb}
+.category-nav .container{min-height:42px}
+.banner{padding:28px;display:block}
+.banner .btn{margin-top:18px;width:100%}
+.actions .btn{width:100%}
+.footer-grid{grid-template-columns:1fr}
+}
