@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const b=document.querySelector(".menu-btn"),n=document.querySelector(".nav-links");if(b)b.addEventListener("click",()=>n.classList.toggle("open"));document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",()=>n?.classList.remove("open")));});
