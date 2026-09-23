@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://assis-ferragens.vercel.app/sitemap.xml
