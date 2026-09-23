@@ -54,7 +54,7 @@
     overlay.setAttribute("aria-modal", "true");
     overlay.innerHTML = `
       <section id="assis-consent" aria-labelledby="assis-consent-title">
-        <h2 id="assis-consent-title">Privacidade e localização</h2>
+        <h2 id="assis-consent-title">Política Privacidade</h2>
         <p>
           Usamos cookies e tecnologias semelhantes para medir o uso do site e,
           somente com sua autorização, ativar recursos de publicidade. A localização
