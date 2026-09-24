@@ -1,7 +1,7 @@
 :root {
-    --blue: #2F3293;
-    --blue-dark: #172B85;
-    --yellow: #E6EC46;
+    --blue: hsl(238, 52%, 38%);
+    --blue-dark: hsl(238, 52%, 30%);
+    --yellow: hsl(62, 81%, 60%);
     --cream: #f5f1e8;
     --text: #111827;
     --muted: #667085;
