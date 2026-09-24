@@ -2,11 +2,11 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #2F3293
+    background: hsl(238, 52%, 38%)
 }
 
 .top-strip {
-    background: #2F3293;
+    background: hsl(238, 52%, 38%);
     color: #fff;
     font-size: .68rem;
     font-weight: 700;
@@ -22,7 +22,7 @@
 
 .nav-wrap {
     border-bottom: 1px solid rgba(255, 255, 255, .16);
-    background: #2F3293
+    background: hsl(238, 52%, 38%)
 }
 
 .nav {
@@ -58,12 +58,12 @@
 }
 
 .desktop-nav a:hover {
-    color: #E6EC46
+    color: hsl(62, 81%, 60%)
 }
 
 .nav-whatsapp {
-    background: #E6EC46;
-    color: #2F3293;
+    background: hsl(62, 81%, 60%);
+    color: hsl(238, 52%, 38%);
     padding: 12px 17px;
     border-radius: 3px;
     font-size: .76rem;
