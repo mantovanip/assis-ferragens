@@ -61,15 +61,18 @@
         grid-template-columns: 1fr
     }
 
-    .location-card {
+    .location-layout {
         grid-template-columns: 1fr;
-        gap: 25px
     }
 
-    .location-card>div:last-child {
-        border-left: 0;
-        border-top: 1px solid var(--line);
-        padding: 25px 0 0
+    .location-card {
+        min-height: auto;
+        gap: 25px;
+    }
+
+    .map-card,
+    .map-card iframe {
+        min-height: 390px;
     }
 
     .footer-grid {
@@ -198,6 +201,24 @@
 
     .location-head .btn {
         margin-top: 25px
+    }
+
+    .location-card {
+        padding: 28px 22px;
+    }
+
+    .location-contact {
+        display: block;
+    }
+
+    .location-contact span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .map-card,
+    .map-card iframe {
+        min-height: 320px;
     }
 
     .footer-grid {
