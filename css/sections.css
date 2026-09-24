@@ -72,14 +72,14 @@
      position: relative;
      min-height: 650px;
      overflow: hidden;
-     background: #183f6d
+     background: hsl(238, 52%, 30%)
  }
 
  .hero-photo:after {
      content: "";
      position: absolute;
      inset: 0;
-     background: linear-gradient(90deg, rgba(11, 59, 120, .35), transparent 45%, rgba(0, 0, 0, .1))
+     background: linear-gradient(90deg, hsla(238, 52%, 38%, .35), transparent 45%, rgba(0, 0, 0, .1))
  }
 
  .hero-photo img {
