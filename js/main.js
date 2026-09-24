@@ -27,8 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!media || rect.bottom <= 0 || rect.top >= viewport) return;
 
                 const factor = Number(item.dataset.parallax || 0.1);
-                const offset = (rect.top - viewport / 2) * factor;
-                media.style.transform = `scale(1.06) translate3d(0,${offset}px,0)`;
+                const offset = (viewport / 2 - (rect.top + rect.height / 2)) * factor;
+                media.style.setProperty("--parallax-y", `${offset}px`);
+                media.style.transform = `translate3d(0, ${offset}px, 0) scale(1.08)`;
             });
             ticking = false;
         };
