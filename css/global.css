@@ -128,7 +128,7 @@ button {
     line-height: .95;
     letter-spacing: -.06em;
     margin: 14px 0 12px;
-    color: #0b3b78
+    color: hsl(238, 52%, 38%)
 }
 
 .legal-page h2 {
@@ -144,7 +144,7 @@ button {
 }
 
 .legal-page a {
-    color: #0b3b78;
+    color: hsl(238, 52%, 38%);
     font-weight: 700
 }
 
