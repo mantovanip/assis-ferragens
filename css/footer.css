@@ -1,5 +1,5 @@
 footer {
-    background: #172B85;
+    background: #2F3293;
     color: #fff;
     padding: 65px 0 22px
 }
@@ -27,7 +27,7 @@ footer {
 }
 
 .footer-grid h3 {
-    color: #FFCC00;
+    color: #E6EC46;
     font-size: .75rem;
     text-transform: uppercase;
     letter-spacing: .12em;
@@ -74,7 +74,7 @@ footer {
 
 .review-count {
     font-size: .8rem;
-    color: #FFCC00;
+    color: #E6EC46;
     font-weight: 800;
     margin-top: 6px;
     letter-spacing: .08em
@@ -146,7 +146,7 @@ footer {
 
 .cookie-banner a {
     font-size: .74rem;
-    color: #172B85;
+    color: #2F3293;
     font-weight: 800
 }
 
@@ -167,13 +167,13 @@ footer {
 }
 
 .cookie-primary {
-    background: #172B85;
+    background: #2F3293;
     color: #fff
 }
 
 .cookie-secondary {
     background: #f5f1e8;
-    color: #172B85
+    color: #2F3293
 }
 
 .cookie-modal {
@@ -244,7 +244,7 @@ footer {
 .cookie-option input {
     width: 18px;
     height: 18px;
-    accent-color: #172B85
+    accent-color: #2F3293
 }
 
 .cookie-modal-actions {
