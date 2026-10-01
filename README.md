@@ -1,39 +1,88 @@
-# Assis Ferragens
+# Assis Ferragens e Acessórios
 
-Site institucional desenvolvido pela **Mantovani SYS** para a Assis Ferragens, em Balneário Rincão — SC.
+> Site institucional desenvolvido para a **Assis Ferragens e Acessórios**, em Balneário Rincão — SC.
 
-## Negócio
+## Visão geral
 
-- **Segmento:** ferragens e materiais
-- **Endereço:** Rua Hercílio Luz, 400 — Zona Nova, Balneário Rincão — SC
-- **WhatsApp:** (48) 99670-4285
-- **Instagram:** @assis.ferragens
+Projeto web responsivo criado para apresentar a loja, seus principais grupos de produtos, localização e canais de atendimento.
 
-## Projeto
+## Funcionalidades
 
-O site apresenta a empresa, seus produtos/serviços, formas de contato e localização.
+- Página institucional responsiva
+- Hero com apresentação da empresa
+- Catálogo por categorias
+- Ferragens e fixadores
+- Ferramentas
+- Casa e utilidades
+- EPIs e acessórios
+- Atendimento via WhatsApp
+- Consultas de produtos
+- Seção institucional
+- Imagens da loja
+- Google Maps incorporado
+- Botão "Como chegar"
+- Instagram
+- Favicon e Apple Touch Icon
+- Web App Manifest
+- SEO e Open Graph
+- Schema.org para negócio local
+- Horários de funcionamento
+- Política de Privacidade
+- Termos de Uso
+- Preferências de cookies
+- Layout responsivo
 
-## Publicação
+## Informações
 
-Padrão Mantovani SYS:
+| Item | Informação |
+|---|---|
+| Empresa | Assis Ferragens e Acessórios |
+| Segmento | Ferragens, ferramentas e acessórios |
+| Localização | R. Hercílio Luz, 400 — Zona Nova, Balneário Rincão — SC |
+| WhatsApp | (48) 99670-4285 |
+| Instagram | @assis.ferragens |
 
+## Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Google Maps Embed
+- Schema.org / JSON-LD
+
+## Estrutura
+
+```text
+assis-ferragens/
+├── index.html
+├── css/
+│   ├── global.css
+│   ├── header.css
+│   ├── sections.css
+│   ├── footer.css
+│   └── responsive.css
+├── js/
+├── images/
+├── politica-de-privacidade.html
+├── termos-de-uso.html
+├── robots.txt
+└── site.webmanifest
 ```
-GitHub
-  ↓
-GitHub Actions
-  ↓
-GitHub Pages
-```
 
-## Tecnologias
+## Autoria
 
-A implementação utiliza tecnologias web compatíveis com publicação estática. Consulte os arquivos do projeto para a stack atual.
+**Desenvolvimento, design e implementação**
 
-## Observação
+### Paulo Mantovani — Mantovani SYS
 
-Contatos, horários, catálogo, imagens e informações comerciais devem ser confirmados pela empresa antes da publicação definitiva.
+GitHub: https://github.com/mantovanip  
+Site: https://mantovanisys.com.br
+
+## Status
+
+Projeto ativo e preparado para evolução de conteúdo e publicação.
 
 ---
 
-**Mantovani SYS**  
-https://mantovanisys.com.br
+**Mantovani SYS · Desenvolvimento Web**
